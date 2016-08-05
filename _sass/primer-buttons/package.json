@@ -1,0 +1,99 @@
+{
+  "_args": [
+    [
+      "primer-buttons@*",
+      "/Users/shingo/Documents/raku/jekyll-dojo/node_modules/primer-css"
+    ]
+  ],
+  "_from": "primer-buttons@*",
+  "_id": "primer-buttons@0.3.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/primer-buttons",
+  "_nodeVersion": "5.12.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/primer-buttons-0.3.0.tgz_1468514128854_0.3434600511100143"
+  },
+  "_npmUser": {
+    "email": "yes@jonrohan.codes",
+    "name": "jonrohan"
+  },
+  "_npmVersion": "3.8.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "primer-buttons",
+    "raw": "primer-buttons@*",
+    "rawSpec": "*",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/primer-css"
+  ],
+  "_resolved": "https://registry.npmjs.org/primer-buttons/-/primer-buttons-0.3.0.tgz",
+  "_shasum": "3b23d9608c08e1cbd7ea838b197f438ce12c95a0",
+  "_shrinkwrap": null,
+  "_spec": "primer-buttons@*",
+  "_where": "/Users/shingo/Documents/raku/jekyll-dojo/node_modules/primer-css",
+  "author": {
+    "name": "GitHub, Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/primer/buttons/issues"
+  },
+  "dependencies": {
+    "primer-support": "*"
+  },
+  "description": "A collection of buttons used for primary and secondary actions.",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "node-sass": "^3.7.0",
+    "postcss-cli": "^2.5.2",
+    "stylelint": "^6.6.0",
+    "stylelint-config-primer": "^1.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "3b23d9608c08e1cbd7ea838b197f438ce12c95a0",
+    "tarball": "https://registry.npmjs.org/primer-buttons/-/primer-buttons-0.3.0.tgz"
+  },
+  "files": [
+    "build",
+    "index.scss",
+    "lib"
+  ],
+  "gitHead": "8409f86844d2a67f8357ec63eee9c33c2967274e",
+  "homepage": "http://primercss.io/",
+  "keywords": [
+    "buttons",
+    "css",
+    "github",
+    "primer",
+    "primercss",
+    "styles"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "jonrohan",
+      "email": "yes@jonrohan.codes"
+    }
+  ],
+  "name": "primer-buttons",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primer/buttons.git"
+  },
+  "scripts": {
+    "build": "node-sass index.scss --include-path node_modules --output-style compressed | postcss -c .postcss.json -o build/build.css",
+    "prepublish": "npm run setup && npm run build",
+    "setup": "if [ ! -d \"node_modules\" ]; then npm install; fi",
+    "test": "npm run build && stylelint **/*.scss -c .stylelintrc.json -s scss"
+  },
+  "style": "index.scss",
+  "version": "0.3.0"
+}

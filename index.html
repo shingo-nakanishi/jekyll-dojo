@@ -2,22 +2,46 @@
 layout: default
 ---
 
-<div class="home">
+<div class="container">
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="flash">
+    Flash message goes here.
+  </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="columns">
+    <div class="one-fifth column">
+      .one-fifth
+    </div>
+    <div class="four-fifths column">
+      .four-fifths
+    </div>
+  </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="columns">
+    <div class="one-fourth column">
+      .one-fourth
+    </div>
+    <div class="three-fourths column">
+      .three-fourths
+    </div>
+  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <div class="columns">
+    <div class="one-third column">
+      .one-third
+    </div>
+    <div class="two-thirds column">
+      .two-thirds
+    </div>
+  </div>
 
+  <div class="columns">
+    <div class="one-half column">
+      .one-half
+    </div>
+    <div class="one-half column">
+      .one-half
+    </div>
+  </div>
 </div>
+

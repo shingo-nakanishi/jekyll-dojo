@@ -1,0 +1,22 @@
+{
+  "name": "jekyll-dojo",
+  "version": "1.0.0",
+  "description": "https://shingo-nakanishi.github.io/jekyll-dojo/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shingo-nakanishi/jekyll-dojo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shingo-nakanishi/jekyll-dojo/issues"
+  },
+  "homepage": "https://github.com/shingo-nakanishi/jekyll-dojo#readme",
+  "dependencies": {
+    "primer-css": "^4.1.0"
+  }
+}
