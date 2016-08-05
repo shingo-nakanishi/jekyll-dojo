@@ -2,45 +2,32 @@
 layout: default
 ---
 
-<div class="container">
-
-  <div class="flash">
-    Flash message goes here.
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-2" style="background-color:red;">Red</div>
+    <div class="col-sm-8" style="background-color:blue;">Blue</div>
+    <div class="col-sm-2" style="background-color:yellow;">Yellow</div>
   </div>
+</div>
 
-  <div class="columns">
-    <div class="one-fifth column">
-      .one-fifth
-    </div>
-    <div class="four-fifths column">
-      .four-fifths
-    </div>
-  </div>
+<!-- Large modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
 
-  <div class="columns">
-    <div class="one-fourth column">
-      .one-fourth
-    </div>
-    <div class="three-fourths column">
-      .three-fourths
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      ...
     </div>
   </div>
+</div>
 
-  <div class="columns">
-    <div class="one-third column">
-      .one-third
-    </div>
-    <div class="two-thirds column">
-      .two-thirds
-    </div>
-  </div>
+<!-- Small modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
 
-  <div class="columns">
-    <div class="one-half column">
-      .one-half
-    </div>
-    <div class="one-half column">
-      .one-half
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      ...
     </div>
   </div>
 </div>
